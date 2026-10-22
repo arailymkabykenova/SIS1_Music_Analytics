@@ -21,9 +21,9 @@ Course: Data Collection & Preparation, KBTU.
 | `requirements.txt` | Python libraries |
 
 ## How to run
-'''
+```
 pip install -r requirements.txt
 jupyter notebook SIS_Music_Analytics.ipynb
-'''
+```
 
 Then run all cells. The Jamendo API sometimes returns an empty page; the notebook retries, and if a page is still missing, run it again.
